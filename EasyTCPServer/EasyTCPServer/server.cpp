@@ -1,7 +1,4 @@
-//
-//  main.cpp
-//  hellocpp
-//
+
 //  Created by Surser on 2020/1/17.
 //  Copyright © 2020 Surser. All rights reserved.
 //
@@ -22,6 +19,36 @@
 #include<thread>
 #include<iostream>
 using namespace std;
+
+enum CMD
+{
+    CMD_LOGIN,
+    CMD_LOGOUT,
+    CMD_ERROR
+};
+
+struct DataHeader
+{
+    short dataLength;
+    short cmd;
+};
+//DataPacket
+struct Login
+{
+    char userName[32];
+    char PassWord[32];
+};
+struct LoginResult
+{
+    int result;
+};
+struct Logout
+{
+    char userName[32];
+};
+struct LogoutResult{
+    int result;
+};
 
 int main(int argc, const char * argv[]) {
 //
@@ -57,26 +84,42 @@ int main(int argc, const char * argv[]) {
     }
     cout<<"新客户端加入：socket = "<<(int)_cSock<<"IP="<< inet_ntoa(clientAddr.sin_addr)<<"\n";
     
-    char _recvbuf[128]={};
-    while(true){
+    while(true)
+    {
+        DataHeader header = {};
         //5. 接受客户端请求
-        int nLen = recv(_cSock, _recvbuf, 128, 0);
+        int nLen = recv(_cSock, (char *)&header, sizeof(header), 0);
         if(nLen<=0){
             cout<<"客户端已退出，任务结束。\n";
             break;
         }
-        cout<<"收到命令："<<_recvbuf<<"\n";
-        //6. 处理请求
-        if(0 == strcmp(_recvbuf, "getName")){
-            char msgBuf[128]= "Xiao Fang.";
-            // 8. send 向客户端发送一段数据
-            send(_cSock, msgBuf, strlen(msgBuf)+1, 0);
-        }else if(0 == strcmp(_recvbuf, "getAge")){
-            char msgBuf[128]= "18 years old.";
-            send(_cSock, msgBuf, strlen(msgBuf)+1, 0);
-        }else {
-            char msgBuf[128]= "???.";
-            send(_cSock, msgBuf, strlen(msgBuf)+1, 0);
+        cout<<"收到命令："<<header.cmd<<"数据长度："<<header.dataLength<<"\n";
+        switch (header.cmd) {
+            case CMD_LOGIN:
+            {
+                Login login = {};
+                recv(_cSock, (char *)&login, sizeof(login), 0);
+                //忽略判断用户密码是否正确的过程
+                LoginResult ret = {1};
+                send(_cSock, (char*)&header, sizeof(header), 0);
+                send(_cSock, (char*)&ret, sizeof(ret), 0);
+            }
+            break;
+            case CMD_LOGOUT:
+            {
+                Logout logout = {};
+                 recv(_cSock, (char *)&logout, sizeof(logout), 0);
+                //忽略判断用户密码是否正确的过程
+                LogoutResult ret = {1};
+                send(_cSock, (char*)&header, sizeof(header), 0);
+                send(_cSock, (char*)&ret, sizeof(ret), 0);
+            }
+            break;
+            default:
+                header.cmd = CMD_ERROR;
+                header.dataLength = 0;
+                send(_cSock, (char*)&header, sizeof(header), 0);
+            break;
         }
     }
     //8. 关闭套接字closesocket

@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>6DBA36A5-C23A-4482-AC7E-48FBFD69FC6A</key>
+		<key>394F8524-79E3-4ECF-8DEB-2E92F1BB11F4</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -15,35 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.tool</string>
 			<key>fileName</key>
-			<string>6DBA36A5-C23A-4482-AC7E-48FBFD69FC6A.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>signature</key>
-			<string>EasyTCPClient-bxjzezhonlmmazgsdrsqyhxfslof</string>
-			<key>timeStartedRecording</key>
-			<real>603901980.97352803</real>
-			<key>timeStoppedRecording</key>
-			<real>603901981.486305</real>
-			<key>title</key>
-			<string>Build target EasyTCPClient</string>
-			<key>uniqueIdentifier</key>
-			<string>6DBA36A5-C23A-4482-AC7E-48FBFD69FC6A</string>
-		</dict>
-		<key>E1A558C2-77BB-493B-9800-38C3257DBF26</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogMajorGroupSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.tool</string>
-			<key>fileName</key>
-			<string>E1A558C2-77BB-493B-9800-38C3257DBF26.xcactivitylog</string>
+			<string>394F8524-79E3-4ECF-8DEB-2E92F1BB11F4.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -54,13 +26,41 @@
 			<key>signature</key>
 			<string>EasyTCPServer-atantvecrssnbagdzfcrvqbyyids</string>
 			<key>timeStartedRecording</key>
-			<real>603901970.12217498</real>
+			<real>603973837.16520405</real>
 			<key>timeStoppedRecording</key>
-			<real>603901970.63777399</real>
+			<real>603973838.00183499</real>
 			<key>title</key>
 			<string>Build target EasyTCPServer</string>
 			<key>uniqueIdentifier</key>
-			<string>E1A558C2-77BB-493B-9800-38C3257DBF26</string>
+			<string>394F8524-79E3-4ECF-8DEB-2E92F1BB11F4</string>
+		</dict>
+		<key>589BCF10-2180-47C3-AB1B-A829580E151E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.tool</string>
+			<key>fileName</key>
+			<string>589BCF10-2180-47C3-AB1B-A829580E151E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>EasyTCPClient-bxjzezhonlmmazgsdrsqyhxfslof</string>
+			<key>timeStartedRecording</key>
+			<real>603973910.35118604</real>
+			<key>timeStoppedRecording</key>
+			<real>603973911.19131398</real>
+			<key>title</key>
+			<string>Build target EasyTCPClient</string>
+			<key>uniqueIdentifier</key>
+			<string>589BCF10-2180-47C3-AB1B-A829580E151E</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

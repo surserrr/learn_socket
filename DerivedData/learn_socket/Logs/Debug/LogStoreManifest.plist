@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>6F6017C2-B830-4030-9D51-ED754750C0CA</key>
+		<key>0FE01AC5-5FB1-4ACB-85B2-116C41B7A1AF</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>6F6017C2-B830-4030-9D51-ED754750C0CA.xcactivitylog</string>
+			<string>0FE01AC5-5FB1-4ACB-85B2-116C41B7A1AF.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,15 +32,15 @@
 			<key>signature</key>
 			<string>Debug EasyTCPServer</string>
 			<key>timeStartedRecording</key>
-			<real>603901970.64749396</real>
+			<real>603971233.57335305</real>
 			<key>timeStoppedRecording</key>
-			<real>603901977.16938603</real>
+			<real>603971256.30591404</real>
 			<key>title</key>
 			<string>Debug EasyTCPServer</string>
 			<key>uniqueIdentifier</key>
-			<string>6F6017C2-B830-4030-9D51-ED754750C0CA</string>
+			<string>0FE01AC5-5FB1-4ACB-85B2-116C41B7A1AF</string>
 		</dict>
-		<key>836D443C-2F9C-4CC4-A571-B9A5E8BE2B3D</key>
+		<key>21788702-8399-47F6-9069-998BF15B28C6</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -49,7 +49,41 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>836D443C-2F9C-4CC4-A571-B9A5E8BE2B3D.xcactivitylog</string>
+			<string>21788702-8399-47F6-9069-998BF15B28C6.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>EasyTCPServer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>EasyTCPServer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug EasyTCPServer</string>
+			<key>timeStartedRecording</key>
+			<real>603973838.01238</real>
+			<key>timeStoppedRecording</key>
+			<real>603973849.83492506</real>
+			<key>title</key>
+			<string>Debug EasyTCPServer</string>
+			<key>uniqueIdentifier</key>
+			<string>21788702-8399-47F6-9069-998BF15B28C6</string>
+		</dict>
+		<key>37915B16-2080-4113-87FA-7EB717F436E6</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>37915B16-2080-4113-87FA-7EB717F436E6.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -66,15 +100,15 @@
 			<key>signature</key>
 			<string>Debug EasyTCPClient</string>
 			<key>timeStartedRecording</key>
-			<real>603901981.49361396</real>
+			<real>603973911.19867396</real>
 			<key>timeStoppedRecording</key>
-			<real>603901985.99897599</real>
+			<real>603973915.96297801</real>
 			<key>title</key>
 			<string>Debug EasyTCPClient</string>
 			<key>uniqueIdentifier</key>
-			<string>836D443C-2F9C-4CC4-A571-B9A5E8BE2B3D</string>
+			<string>37915B16-2080-4113-87FA-7EB717F436E6</string>
 		</dict>
-		<key>D62027E2-DFC5-4ABB-AB30-982994BCF81B</key>
+		<key>57046565-F2BF-4F8B-8FC1-AB8080671F1F</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -83,7 +117,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>D62027E2-DFC5-4ABB-AB30-982994BCF81B.xcactivitylog</string>
+			<string>57046565-F2BF-4F8B-8FC1-AB8080671F1F.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -100,13 +134,13 @@
 			<key>signature</key>
 			<string>Debug EasyTCPClient</string>
 			<key>timeStartedRecording</key>
-			<real>603901917.49173903</real>
+			<real>603905227.72269106</real>
 			<key>timeStoppedRecording</key>
-			<real>603901976.78562903</real>
+			<real>603965837.49322295</real>
 			<key>title</key>
 			<string>Debug EasyTCPClient</string>
 			<key>uniqueIdentifier</key>
-			<string>D62027E2-DFC5-4ABB-AB30-982994BCF81B</string>
+			<string>57046565-F2BF-4F8B-8FC1-AB8080671F1F</string>
 		</dict>
 	</dict>
 </dict>

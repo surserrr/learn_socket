@@ -23,6 +23,36 @@
 #include<iostream>
 using namespace std;
 
+enum CMD
+{
+    CMD_LOGIN,
+    CMD_LOGOUT,
+    CMD_ERROR
+};
+
+struct DataHeader
+{
+    short dataLength;
+    short cmd;
+};
+//DataPacket
+struct Login
+{
+    char userName[32];
+    char PassWord[32];
+};
+struct LoginResult
+{
+    int result;
+};
+struct Logout
+{
+    char userName[32];
+};
+struct LogoutResult{
+    int result;
+};
+
 int main(int argc, const char * argv[]) {
 //    1.建立一个socket
     SOCKET _sock = socket(AF_INET, SOCK_STREAM, 0);
@@ -56,23 +86,37 @@ int main(int argc, const char * argv[]) {
             cout<<"收到exit，任务结束。\n";
             break;
         }
-        else
+        else if( 0 == strcmp(cmdBuf, "login"))
         {
+            Login login = {"fjt","fjtmm"};
+            DataHeader dh = {sizeof(login), CMD_LOGIN};
             //5.向服务器发送请求命令
-            send(_sock, cmdBuf, strlen(cmdBuf) +1, 0);
-            cout<<"发送成功\n";
+            send(_sock, (const char*)&dh, sizeof(dh), 0);
+            send(_sock, (const char*)&login, sizeof(login), 0);
+            // 接受服务器返回的数据
+            DataHeader retHeader = {};
+            LoginResult loginRet = {};
+            recv(_sock, (char*) &retHeader, sizeof(retHeader), 0);
+            recv(_sock, (char*) &loginRet, sizeof(loginRet), 0);
+            cout<<"LoginResult:"<<loginRet.result;
         }
-        char recvBuf[128] = {};
-        int nlen = recv(_sock, recvBuf, 128, 0);
-        if(nlen>0){
-            cout<<"接收到数据:"<<recvBuf<<"\n";
+        else if( 0 == strcmp(cmdBuf, "logout"))
+        {
+            Logout logout = {"fjt"};
+            DataHeader dh = {sizeof(logout), CMD_LOGOUT};
+            send(_sock, (const char*)&dh, sizeof(dh), 0);
+            send(_sock, (const char*)&logout, sizeof(logout), 0);
+            // 接受服务器返回的数据
+            DataHeader retHeader = {};
+            LoginResult logoutRet = {};
+            recv(_sock, (char*) &retHeader, sizeof(retHeader), 0);
+            recv(_sock, (char*) &logoutRet, sizeof(logoutRet), 0);
+            cout<<"LogoutRet:"<<logoutRet.result;
         }
-        else{
-            cout<<"没接收到数据\n";
+        else {
+            cout<< "不支持命令，请重新输入\n";
         }
     }
-    // 6.接受服务器信息recv
-    
 //    7.关闭套接字close
     close(_sock);
     cout<<"客户端已退出。\n";
