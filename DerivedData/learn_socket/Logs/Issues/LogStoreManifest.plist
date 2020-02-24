@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>34BE4F92-C667-486A-B998-0C8C4A04BD5F</key>
+		<key>E63F0CF0-CFA6-4C3E-BBD6-516183D82421</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.tool</string>
 			<key>fileName</key>
-			<string>34BE4F92-C667-486A-B998-0C8C4A04BD5F.xcactivitylog</string>
+			<string>E63F0CF0-CFA6-4C3E-BBD6-516183D82421.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -24,17 +24,17 @@
 				<string>W</string>
 			</dict>
 			<key>signature</key>
-			<string>EasyTCPClient-bxjzezhonlmmazgsdrsqyhxfslof</string>
+			<string>EasyTCPServer-atantvecrssnbagdzfcrvqbyyids</string>
 			<key>timeStartedRecording</key>
-			<real>604142808.09537101</real>
+			<real>604215444.97088301</real>
 			<key>timeStoppedRecording</key>
-			<real>604142808.65236795</real>
+			<real>604215445.69238901</real>
 			<key>title</key>
-			<string>Build target EasyTCPClient</string>
+			<string>Build target EasyTCPServer</string>
 			<key>uniqueIdentifier</key>
-			<string>34BE4F92-C667-486A-B998-0C8C4A04BD5F</string>
+			<string>E63F0CF0-CFA6-4C3E-BBD6-516183D82421</string>
 		</dict>
-		<key>9DA361A6-0BA0-43AA-9E97-9986B266A582</key>
+		<key>F868DD83-248E-4A51-A7C6-01D67A2F21B9</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -43,24 +43,24 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.tool</string>
 			<key>fileName</key>
-			<string>9DA361A6-0BA0-43AA-9E97-9986B266A582.xcactivitylog</string>
+			<string>F868DD83-248E-4A51-A7C6-01D67A2F21B9.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>E</string>
+				<string>S</string>
 			</dict>
 			<key>signature</key>
-			<string>EasyTCPServer-atantvecrssnbagdzfcrvqbyyids</string>
+			<string>EasyTCPClient-bxjzezhonlmmazgsdrsqyhxfslof</string>
 			<key>timeStartedRecording</key>
-			<real>604076337.16471803</real>
+			<real>604220148.54763103</real>
 			<key>timeStoppedRecording</key>
-			<real>604076338.17040598</real>
+			<real>604220149.09873199</real>
 			<key>title</key>
-			<string>Build target EasyTCPServer</string>
+			<string>Build target EasyTCPClient</string>
 			<key>uniqueIdentifier</key>
-			<string>9DA361A6-0BA0-43AA-9E97-9986B266A582</string>
+			<string>F868DD83-248E-4A51-A7C6-01D67A2F21B9</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>
