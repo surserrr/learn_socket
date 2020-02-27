@@ -36,20 +36,37 @@ void cmdThread(EasyTcpClient* client)
 
 int main(int argc, const char * argv[])
 {
-    EasyTcpClient client;
-    client.Connect("127.0.0.1", 4567);
-    
-    //启动线程
-    std::thread t1(cmdThread,&client);
-    t1.detach();
-    
-    while (client.isRun())
+    const int cCount = 10;
+    EasyTcpClient *client[cCount];
+    for(int n=0;n<cCount;n++)
     {
-        client.OnRun();
+        client[n] = new EasyTcpClient();
+        client[n]->Connect("127.0.0.1", 4567);
+    }
+    //client.Connect("127.0.0.1", 4567);
+    //127.0.0.1 192.168.0.107
+    //启动线程
+    //std::thread t1(cmdThread);
+    //t1.detach();
+    
+    Login login;
+    strcpy(login.userName, "fjt");
+    strcpy(login.PassWord, "fjtmm");
+    while (true)
+    {
+        for(int n=0;n<cCount;n++)
+        {
+            client[n]->SendData(&login);
+            client[n]->OnRun();
+        }
+        //client->OnRun();
         //cout<<"空闲时间处理其他业务 .."<<endl;
         //sleep(1000);
     }
-    client.Close();
+    for(int n=0;n<cCount;n++)
+    {
+        client[n]->Close();
+    }
     cout<<"已退出。\n";
  //   getchar();
     return 0;
