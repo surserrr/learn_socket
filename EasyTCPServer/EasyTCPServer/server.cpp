@@ -6,7 +6,7 @@ int main()
     server.InitSocket();
     server.Bind(nullptr, 4567);
     server.Listen(5);
-    
+    server.Start();
     while(server.isRun())
     {
         server.OnRun();
@@ -16,4 +16,5 @@ int main()
     cout<<"服务器已退出。\n";
     getchar();
     return 0;
+    
 }

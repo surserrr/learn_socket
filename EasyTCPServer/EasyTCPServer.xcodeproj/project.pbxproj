@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BF4C0D1524054EAA000D6AB1 /* EasyTcpServer.hpp in Sources */ = {isa = PBXBuildFile; fileRef = BF4C0D1424054EAA000D6AB1 /* EasyTcpServer.hpp */; };
 		BF4C0D1724054F1C000D6AB1 /* MessageHeader.hpp in Sources */ = {isa = PBXBuildFile; fileRef = BF4C0D1624054F1C000D6AB1 /* MessageHeader.hpp */; };
+		BF6896D8240971B0000BC3BD /* CELLTimestamp.hpp in Sources */ = {isa = PBXBuildFile; fileRef = BF6896D7240971B0000BC3BD /* CELLTimestamp.hpp */; };
 		BFE6C7A723FECF1200B4F367 /* server.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFE6C7A623FECF1200B4F367 /* server.cpp */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 /* Begin PBXFileReference section */
 		BF4C0D1424054EAA000D6AB1 /* EasyTcpServer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = EasyTcpServer.hpp; sourceTree = "<group>"; };
 		BF4C0D1624054F1C000D6AB1 /* MessageHeader.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MessageHeader.hpp; sourceTree = "<group>"; };
+		BF6896D7240971B0000BC3BD /* CELLTimestamp.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CELLTimestamp.hpp; sourceTree = "<group>"; };
 		BFE6C7A323FECF1200B4F367 /* EasyTCPServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EasyTCPServer; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFE6C7A623FECF1200B4F367 /* server.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = server.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -64,6 +66,7 @@
 				BFE6C7A623FECF1200B4F367 /* server.cpp */,
 				BF4C0D1424054EAA000D6AB1 /* EasyTcpServer.hpp */,
 				BF4C0D1624054F1C000D6AB1 /* MessageHeader.hpp */,
+				BF6896D7240971B0000BC3BD /* CELLTimestamp.hpp */,
 			);
 			path = EasyTCPServer;
 			sourceTree = "<group>";
@@ -127,6 +130,7 @@
 			files = (
 				BF4C0D1524054EAA000D6AB1 /* EasyTcpServer.hpp in Sources */,
 				BF4C0D1724054F1C000D6AB1 /* MessageHeader.hpp in Sources */,
+				BF6896D8240971B0000BC3BD /* CELLTimestamp.hpp in Sources */,
 				BFE6C7A723FECF1200B4F367 /* server.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

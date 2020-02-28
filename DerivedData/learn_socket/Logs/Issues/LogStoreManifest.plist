@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>5E0D8AD0-EE6E-4C5A-95D1-09D8ECEDE1FE</key>
+		<key>14AF010D-91D8-442D-A70D-D2841B0A1E36</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.tool</string>
 			<key>fileName</key>
-			<string>5E0D8AD0-EE6E-4C5A-95D1-09D8ECEDE1FE.xcactivitylog</string>
+			<string>14AF010D-91D8-442D-A70D-D2841B0A1E36.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -26,15 +26,15 @@
 			<key>signature</key>
 			<string>EasyTCPClient-bxjzezhonlmmazgsdrsqyhxfslof</string>
 			<key>timeStartedRecording</key>
-			<real>604482200.79415905</real>
+			<real>604599057.12147701</real>
 			<key>timeStoppedRecording</key>
-			<real>604482201.43594098</real>
+			<real>604599057.76462805</real>
 			<key>title</key>
 			<string>Build target EasyTCPClient</string>
 			<key>uniqueIdentifier</key>
-			<string>5E0D8AD0-EE6E-4C5A-95D1-09D8ECEDE1FE</string>
+			<string>14AF010D-91D8-442D-A70D-D2841B0A1E36</string>
 		</dict>
-		<key>D0ACE02A-6A98-41D3-B31C-961F868F7BFE</key>
+		<key>B29498EC-BE38-46E4-B100-AE28ED70205B</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -43,24 +43,24 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.tool</string>
 			<key>fileName</key>
-			<string>D0ACE02A-6A98-41D3-B31C-961F868F7BFE.xcactivitylog</string>
+			<string>B29498EC-BE38-46E4-B100-AE28ED70205B.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>S</string>
+				<string>W</string>
 			</dict>
 			<key>signature</key>
 			<string>EasyTCPServer-atantvecrssnbagdzfcrvqbyyids</string>
 			<key>timeStartedRecording</key>
-			<real>604426218.04240203</real>
+			<real>604599221.661286</real>
 			<key>timeStoppedRecording</key>
-			<real>604426218.65948498</real>
+			<real>604599222.43730998</real>
 			<key>title</key>
 			<string>Build target EasyTCPServer</string>
 			<key>uniqueIdentifier</key>
-			<string>D0ACE02A-6A98-41D3-B31C-961F868F7BFE</string>
+			<string>B29498EC-BE38-46E4-B100-AE28ED70205B</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

@@ -58,7 +58,7 @@ public:
         }
         else
         {
-            cout<<"建立套接字成功\n";
+            //cout<<"建立套接字成功\n";
         }
     }
     //连接服务器
@@ -82,7 +82,7 @@ public:
                     cout<<"错误！连接服务器失败\n";
                 }
         else{
-                    cout<<"连接服务器成功\n";
+                    //cout<<"连接服务器成功\n";
                 }
         return ret;
     }

@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>0B50343C-A067-49E2-BC2D-7D5F5FA57E2D</key>
+		<key>018C75D8-F835-4A09-BA2F-ABCA366272CD</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,143 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>0B50343C-A067-49E2-BC2D-7D5F5FA57E2D.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>EasyTCPServer project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>EasyTCPServer</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build EasyTCPServer</string>
-			<key>timeStartedRecording</key>
-			<real>604425831.19834006</real>
-			<key>timeStoppedRecording</key>
-			<real>604425831.89006197</real>
-			<key>title</key>
-			<string>Build EasyTCPServer</string>
-			<key>uniqueIdentifier</key>
-			<string>0B50343C-A067-49E2-BC2D-7D5F5FA57E2D</string>
-		</dict>
-		<key>2160B2B8-693B-4EDE-9EBB-D56F3684A291</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>2160B2B8-693B-4EDE-9EBB-D56F3684A291.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>EasyTCPClient project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>EasyTCPClient</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build EasyTCPClient</string>
-			<key>timeStartedRecording</key>
-			<real>604481763.19916105</real>
-			<key>timeStoppedRecording</key>
-			<real>604481763.64435804</real>
-			<key>title</key>
-			<string>Build EasyTCPClient</string>
-			<key>uniqueIdentifier</key>
-			<string>2160B2B8-693B-4EDE-9EBB-D56F3684A291</string>
-		</dict>
-		<key>3BD4D3A8-6F38-4C9B-8693-AA7C36BD626C</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>3BD4D3A8-6F38-4C9B-8693-AA7C36BD626C.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>EasyTCPClient project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>EasyTCPClient</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build EasyTCPClient</string>
-			<key>timeStartedRecording</key>
-			<real>604481728.04598701</real>
-			<key>timeStoppedRecording</key>
-			<real>604481728.86698103</real>
-			<key>title</key>
-			<string>Build EasyTCPClient</string>
-			<key>uniqueIdentifier</key>
-			<string>3BD4D3A8-6F38-4C9B-8693-AA7C36BD626C</string>
-		</dict>
-		<key>501CB11D-64CB-4F8A-B1AF-66D73EEEB861</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>501CB11D-64CB-4F8A-B1AF-66D73EEEB861.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>EasyTCPClient project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>EasyTCPClient</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build EasyTCPClient</string>
-			<key>timeStartedRecording</key>
-			<real>604481776.075212</real>
-			<key>timeStoppedRecording</key>
-			<real>604481776.52283299</real>
-			<key>title</key>
-			<string>Build EasyTCPClient</string>
-			<key>uniqueIdentifier</key>
-			<string>501CB11D-64CB-4F8A-B1AF-66D73EEEB861</string>
-		</dict>
-		<key>5E77D359-098F-400C-8B72-BBA6D09A90A3</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>5E77D359-098F-400C-8B72-BBA6D09A90A3.xcactivitylog</string>
+			<string>018C75D8-F835-4A09-BA2F-ABCA366272CD.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -168,15 +32,15 @@
 			<key>signature</key>
 			<string>Build EasyTCPServer</string>
 			<key>timeStartedRecording</key>
-			<real>604424443.25502503</real>
+			<real>604598838.21145797</real>
 			<key>timeStoppedRecording</key>
-			<real>604424443.85513103</real>
+			<real>604598838.75261104</real>
 			<key>title</key>
 			<string>Build EasyTCPServer</string>
 			<key>uniqueIdentifier</key>
-			<string>5E77D359-098F-400C-8B72-BBA6D09A90A3</string>
+			<string>018C75D8-F835-4A09-BA2F-ABCA366272CD</string>
 		</dict>
-		<key>70F2998A-3B00-497D-8476-715048AA12BD</key>
+		<key>1445303E-DF63-4BBE-8C6B-8058AC7556D7</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -185,7 +49,41 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>70F2998A-3B00-497D-8476-715048AA12BD.xcactivitylog</string>
+			<string>1445303E-DF63-4BBE-8C6B-8058AC7556D7.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>EasyTCPServer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>EasyTCPServer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build EasyTCPServer</string>
+			<key>timeStartedRecording</key>
+			<real>604597765.37781</real>
+			<key>timeStoppedRecording</key>
+			<real>604597766.12073505</real>
+			<key>title</key>
+			<string>Build EasyTCPServer</string>
+			<key>uniqueIdentifier</key>
+			<string>1445303E-DF63-4BBE-8C6B-8058AC7556D7</string>
+		</dict>
+		<key>1D602B02-5DCE-455B-B104-265092CE9016</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>1D602B02-5DCE-455B-B104-265092CE9016.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -202,15 +100,15 @@
 			<key>signature</key>
 			<string>Build EasyTCPServer</string>
 			<key>timeStartedRecording</key>
-			<real>604425817.48763502</real>
+			<real>604597235.05876303</real>
 			<key>timeStoppedRecording</key>
-			<real>604425818.10811698</real>
+			<real>604597236.18762505</real>
 			<key>title</key>
 			<string>Build EasyTCPServer</string>
 			<key>uniqueIdentifier</key>
-			<string>70F2998A-3B00-497D-8476-715048AA12BD</string>
+			<string>1D602B02-5DCE-455B-B104-265092CE9016</string>
 		</dict>
-		<key>7F3A6581-EFBB-4EC6-AE44-EA2F0A2B9F6B</key>
+		<key>3199C132-4380-4956-9DF4-BBB659BA8689</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -219,7 +117,381 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>7F3A6581-EFBB-4EC6-AE44-EA2F0A2B9F6B.xcactivitylog</string>
+			<string>3199C132-4380-4956-9DF4-BBB659BA8689.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>EasyTCPServer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>EasyTCPServer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build EasyTCPServer</string>
+			<key>timeStartedRecording</key>
+			<real>604592873.77779698</real>
+			<key>timeStoppedRecording</key>
+			<real>604592874.578246</real>
+			<key>title</key>
+			<string>Build EasyTCPServer</string>
+			<key>uniqueIdentifier</key>
+			<string>3199C132-4380-4956-9DF4-BBB659BA8689</string>
+		</dict>
+		<key>3DBD9572-06CA-45A1-9BFB-40A1562170BA</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3DBD9572-06CA-45A1-9BFB-40A1562170BA.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>EasyTCPServer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>EasyTCPServer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build EasyTCPServer</string>
+			<key>timeStartedRecording</key>
+			<real>604598849.40659595</real>
+			<key>timeStoppedRecording</key>
+			<real>604598850.20790303</real>
+			<key>title</key>
+			<string>Build EasyTCPServer</string>
+			<key>uniqueIdentifier</key>
+			<string>3DBD9572-06CA-45A1-9BFB-40A1562170BA</string>
+		</dict>
+		<key>6016AE8E-2AD7-4F9E-ADC6-AD7C8F4AEC32</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>6016AE8E-2AD7-4F9E-ADC6-AD7C8F4AEC32.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>EasyTCPServer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>EasyTCPServer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build EasyTCPServer</string>
+			<key>timeStartedRecording</key>
+			<real>604598856.41234601</real>
+			<key>timeStoppedRecording</key>
+			<real>604598857.15749896</real>
+			<key>title</key>
+			<string>Build EasyTCPServer</string>
+			<key>uniqueIdentifier</key>
+			<string>6016AE8E-2AD7-4F9E-ADC6-AD7C8F4AEC32</string>
+		</dict>
+		<key>6C2EA507-52C5-4261-A76C-426B8DF0B0B9</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>6C2EA507-52C5-4261-A76C-426B8DF0B0B9.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>EasyTCPServer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>EasyTCPServer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build EasyTCPServer</string>
+			<key>timeStartedRecording</key>
+			<real>604599064.74856806</real>
+			<key>timeStoppedRecording</key>
+			<real>604599064.80192304</real>
+			<key>title</key>
+			<string>Build EasyTCPServer</string>
+			<key>uniqueIdentifier</key>
+			<string>6C2EA507-52C5-4261-A76C-426B8DF0B0B9</string>
+		</dict>
+		<key>6EFC2DAA-E2B8-410C-8D4C-0A18EA8ABF88</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>6EFC2DAA-E2B8-410C-8D4C-0A18EA8ABF88.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>EasyTCPServer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>EasyTCPServer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build EasyTCPServer</string>
+			<key>timeStartedRecording</key>
+			<real>604598869.24691105</real>
+			<key>timeStoppedRecording</key>
+			<real>604598869.96896005</real>
+			<key>title</key>
+			<string>Build EasyTCPServer</string>
+			<key>uniqueIdentifier</key>
+			<string>6EFC2DAA-E2B8-410C-8D4C-0A18EA8ABF88</string>
+		</dict>
+		<key>73892D8C-3581-4888-9F89-D3E003967F06</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>73892D8C-3581-4888-9F89-D3E003967F06.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>EasyTCPServer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>EasyTCPServer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build EasyTCPServer</string>
+			<key>timeStartedRecording</key>
+			<real>604597406.67273796</real>
+			<key>timeStoppedRecording</key>
+			<real>604597407.18271697</real>
+			<key>title</key>
+			<string>Build EasyTCPServer</string>
+			<key>uniqueIdentifier</key>
+			<string>73892D8C-3581-4888-9F89-D3E003967F06</string>
+		</dict>
+		<key>7B117270-FFE0-42C1-AC40-938659318338</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>7B117270-FFE0-42C1-AC40-938659318338.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>EasyTCPServer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>EasyTCPServer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build EasyTCPServer</string>
+			<key>timeStartedRecording</key>
+			<real>604598716.34965897</real>
+			<key>timeStoppedRecording</key>
+			<real>604598716.83248901</real>
+			<key>title</key>
+			<string>Build EasyTCPServer</string>
+			<key>uniqueIdentifier</key>
+			<string>7B117270-FFE0-42C1-AC40-938659318338</string>
+		</dict>
+		<key>A2B15360-1E8A-4615-9852-6A9A7DFDCB68</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A2B15360-1E8A-4615-9852-6A9A7DFDCB68.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>EasyTCPServer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>EasyTCPServer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build EasyTCPServer</string>
+			<key>timeStartedRecording</key>
+			<real>604598256.32973397</real>
+			<key>timeStoppedRecording</key>
+			<real>604598257.09324598</real>
+			<key>title</key>
+			<string>Build EasyTCPServer</string>
+			<key>uniqueIdentifier</key>
+			<string>A2B15360-1E8A-4615-9852-6A9A7DFDCB68</string>
+		</dict>
+		<key>BD8666E5-B39D-485D-9CB3-FBE0C9DDC995</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>BD8666E5-B39D-485D-9CB3-FBE0C9DDC995.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>EasyTCPServer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>EasyTCPServer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build EasyTCPServer</string>
+			<key>timeStartedRecording</key>
+			<real>604598299.47710299</real>
+			<key>timeStoppedRecording</key>
+			<real>604598300.25059104</real>
+			<key>title</key>
+			<string>Build EasyTCPServer</string>
+			<key>uniqueIdentifier</key>
+			<string>BD8666E5-B39D-485D-9CB3-FBE0C9DDC995</string>
+		</dict>
+		<key>C43C8511-CFF8-4B54-86F3-39DAFCE2225F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C43C8511-CFF8-4B54-86F3-39DAFCE2225F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>EasyTCPServer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>EasyTCPServer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build EasyTCPServer</string>
+			<key>timeStartedRecording</key>
+			<real>604599024.90381002</real>
+			<key>timeStoppedRecording</key>
+			<real>604599025.67206097</real>
+			<key>title</key>
+			<string>Build EasyTCPServer</string>
+			<key>uniqueIdentifier</key>
+			<string>C43C8511-CFF8-4B54-86F3-39DAFCE2225F</string>
+		</dict>
+		<key>D5142409-0E2D-45D4-B7CD-804758BB3A98</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D5142409-0E2D-45D4-B7CD-804758BB3A98.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>EasyTCPServer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>EasyTCPServer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build EasyTCPServer</string>
+			<key>timeStartedRecording</key>
+			<real>604598233.34304202</real>
+			<key>timeStoppedRecording</key>
+			<real>604598233.87964499</real>
+			<key>title</key>
+			<string>Build EasyTCPServer</string>
+			<key>uniqueIdentifier</key>
+			<string>D5142409-0E2D-45D4-B7CD-804758BB3A98</string>
+		</dict>
+		<key>DF22C4D5-C988-49BF-83F0-2C87B1DC2E36</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>DF22C4D5-C988-49BF-83F0-2C87B1DC2E36.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -236,15 +508,15 @@
 			<key>signature</key>
 			<string>Build EasyTCPClient</string>
 			<key>timeStartedRecording</key>
-			<real>604426221.69653106</real>
+			<real>604599057.04920101</real>
 			<key>timeStoppedRecording</key>
-			<real>604426222.30492795</real>
+			<real>604599057.76929498</real>
 			<key>title</key>
 			<string>Build EasyTCPClient</string>
 			<key>uniqueIdentifier</key>
-			<string>7F3A6581-EFBB-4EC6-AE44-EA2F0A2B9F6B</string>
+			<string>DF22C4D5-C988-49BF-83F0-2C87B1DC2E36</string>
 		</dict>
-		<key>7F4736BF-436C-4CB8-A793-712216BEA42D</key>
+		<key>DF45F712-57BA-4F68-8F8E-3BB3F64D34A0</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -253,47 +525,13 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>7F4736BF-436C-4CB8-A793-712216BEA42D.xcactivitylog</string>
+			<string>DF45F712-57BA-4F68-8F8E-3BB3F64D34A0.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
 				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>EasyTCPClient project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>EasyTCPClient</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build EasyTCPClient</string>
-			<key>timeStartedRecording</key>
-			<real>604482200.76450706</real>
-			<key>timeStoppedRecording</key>
-			<real>604482201.43994498</real>
-			<key>title</key>
-			<string>Build EasyTCPClient</string>
-			<key>uniqueIdentifier</key>
-			<string>7F4736BF-436C-4CB8-A793-712216BEA42D</string>
-		</dict>
-		<key>92789CD1-F9C4-4A75-8697-3F912116D923</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>92789CD1-F9C4-4A75-8697-3F912116D923.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
 			</dict>
 			<key>schemeIdentifier-containerName</key>
 			<string>EasyTCPServer project</string>
@@ -304,15 +542,15 @@
 			<key>signature</key>
 			<string>Build EasyTCPServer</string>
 			<key>timeStartedRecording</key>
-			<real>604424478.83029306</real>
+			<real>604597736.00884998</real>
 			<key>timeStoppedRecording</key>
-			<real>604424479.47318602</real>
+			<real>604597736.84932697</real>
 			<key>title</key>
 			<string>Build EasyTCPServer</string>
 			<key>uniqueIdentifier</key>
-			<string>92789CD1-F9C4-4A75-8697-3F912116D923</string>
+			<string>DF45F712-57BA-4F68-8F8E-3BB3F64D34A0</string>
 		</dict>
-		<key>979721B5-D447-47D0-A975-CB0773EC9BED</key>
+		<key>E1889432-3134-4848-955C-09122BA7C9AA</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -321,41 +559,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>979721B5-D447-47D0-A975-CB0773EC9BED.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>EasyTCPClient project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>EasyTCPClient</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build EasyTCPClient</string>
-			<key>timeStartedRecording</key>
-			<real>604482182.91772997</real>
-			<key>timeStoppedRecording</key>
-			<real>604482183.71777105</real>
-			<key>title</key>
-			<string>Build EasyTCPClient</string>
-			<key>uniqueIdentifier</key>
-			<string>979721B5-D447-47D0-A975-CB0773EC9BED</string>
-		</dict>
-		<key>AA2B3532-1B39-4630-AB99-FEF3980AD4B8</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>AA2B3532-1B39-4630-AB99-FEF3980AD4B8.xcactivitylog</string>
+			<string>E1889432-3134-4848-955C-09122BA7C9AA.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -372,15 +576,15 @@
 			<key>signature</key>
 			<string>Build EasyTCPServer</string>
 			<key>timeStartedRecording</key>
-			<real>604424462.02358103</real>
+			<real>604597384.56062603</real>
 			<key>timeStoppedRecording</key>
-			<real>604424462.499125</real>
+			<real>604597385.07663798</real>
 			<key>title</key>
 			<string>Build EasyTCPServer</string>
 			<key>uniqueIdentifier</key>
-			<string>AA2B3532-1B39-4630-AB99-FEF3980AD4B8</string>
+			<string>E1889432-3134-4848-955C-09122BA7C9AA</string>
 		</dict>
-		<key>DACFD55C-ED14-46F6-BE5F-39DE9330B8B1</key>
+		<key>E31D3EE0-226F-40D3-ACFC-A466D6BE43AC</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -389,13 +593,13 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>DACFD55C-ED14-46F6-BE5F-39DE9330B8B1.xcactivitylog</string>
+			<string>E31D3EE0-226F-40D3-ACFC-A466D6BE43AC.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>S</string>
+				<string>W</string>
 			</dict>
 			<key>schemeIdentifier-containerName</key>
 			<string>EasyTCPServer project</string>
@@ -406,15 +610,15 @@
 			<key>signature</key>
 			<string>Build EasyTCPServer</string>
 			<key>timeStartedRecording</key>
-			<real>604423432.11865306</real>
+			<real>604597351.58515501</real>
 			<key>timeStoppedRecording</key>
-			<real>604423432.71377897</real>
+			<real>604597352.69608295</real>
 			<key>title</key>
 			<string>Build EasyTCPServer</string>
 			<key>uniqueIdentifier</key>
-			<string>DACFD55C-ED14-46F6-BE5F-39DE9330B8B1</string>
+			<string>E31D3EE0-226F-40D3-ACFC-A466D6BE43AC</string>
 		</dict>
-		<key>FEC8BE7B-5121-4CC7-9DF3-04C4C684F8E9</key>
+		<key>FB8DC6A4-B91E-46E1-86A2-E2530C94BAB7</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -423,13 +627,13 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>FEC8BE7B-5121-4CC7-9DF3-04C4C684F8E9.xcactivitylog</string>
+			<string>FB8DC6A4-B91E-46E1-86A2-E2530C94BAB7.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>S</string>
+				<string>W</string>
 			</dict>
 			<key>schemeIdentifier-containerName</key>
 			<string>EasyTCPServer project</string>
@@ -440,13 +644,13 @@
 			<key>signature</key>
 			<string>Build EasyTCPServer</string>
 			<key>timeStartedRecording</key>
-			<real>604426218.00667405</real>
+			<real>604599221.628016</real>
 			<key>timeStoppedRecording</key>
-			<real>604426218.66723001</real>
+			<real>604599222.49038994</real>
 			<key>title</key>
 			<string>Build EasyTCPServer</string>
 			<key>uniqueIdentifier</key>
-			<string>FEC8BE7B-5121-4CC7-9DF3-04C4C684F8E9</string>
+			<string>FB8DC6A4-B91E-46E1-86A2-E2530C94BAB7</string>
 		</dict>
 	</dict>
 </dict>
