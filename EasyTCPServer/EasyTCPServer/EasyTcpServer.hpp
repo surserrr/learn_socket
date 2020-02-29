@@ -1,11 +1,13 @@
-#ifndef _EasyTcpServer_hpp_
+﻿#ifndef _EasyTcpServer_hpp_
 #define _EasyTcpServer_hpp_
-
+#define _WINSOCK_DEPRECATED_NO_WARNINGS 
 #ifdef _WIN32
     #define WIN32_LEAN_AND_MEAN
+	#define FD_SETSIZE 1024
     #include<windows.h>
     #include<WinSock2.h>
     #pragma comment(lib,"ws2_32.lib")
+	
 #else
     #include <unistd.h>
     #include<arpa/inet.h>
@@ -17,7 +19,7 @@
 #endif
 
 
-#include <sys/time.h>
+//#include <sys/time.h>
 #include <time.h>
 #include <stdio.h>
 #include <vector>
@@ -32,7 +34,7 @@ using namespace std;
 #ifndef RECV_BUFF_SIZE
 #define RECV_BUFF_SIZE 10240
 #endif
-#define _CellServer_THREAD_COUNT 4
+#define _CellServer_THREAD_COUNT 2
 class ClientSocket
 {
 public:
@@ -311,7 +313,7 @@ public:
         // 启动windows socket2.x 环境
         WORD vwe = MAKEWORD(2,2);
         WSADATA dat;
-        WSAStartup(ver,&dat);
+        WSAStartup(vwe,&dat);
 #endif
         //1.建立一个socket
         if(INVALID_SOCKET != _sock)
@@ -340,11 +342,11 @@ public:
 #ifdef _WIN32
         if(ip)
         {
-            _sin.sin_addr.S_un.s_addr = inet_addr(ip);
+            _sin.sin_addr.S_un.S_addr = inet_addr(ip);
         }
         else
         {
-            _sin.sin_addr.S_un.s_addr = INADDR_ANY;
+            _sin.sin_addr.S_un.S_addr = INADDR_ANY;
         }
 #else
         if(ip)
@@ -382,7 +384,7 @@ public:
     SOCKET Accept()
     {
         sockaddr_in clientAddr = {};
-        socklen_t nAddrLen = sizeof(sockaddr_in);
+        int nAddrLen = sizeof(sockaddr_in);
         SOCKET cSock = INVALID_SOCKET;
 #ifdef _WIN32
         cSock = accept(_sock, (sockaddr*)&clientAddr, &nAddrLen);

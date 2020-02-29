@@ -1,4 +1,4 @@
-#ifndef _MessageHeader_hpp_
+﻿#ifndef _MessageHeader_hpp_
 #define _MessageHeader_hpp_
 
 enum CMD
@@ -31,7 +31,7 @@ struct Login:public DataHeader
     }
     char userName[32];
     char PassWord[32];
-    char data[956];
+    char data[32];
 };
 struct LoginResult:public DataHeader
 {
@@ -42,7 +42,7 @@ struct LoginResult:public DataHeader
         result = 0;
     }
     int result;
-    char data[992];
+    char data[92];
 };
 struct Logout:public DataHeader
 {
@@ -76,4 +76,5 @@ struct NewUserJoin:public DataHeader
 };
 
 #endif
+
 

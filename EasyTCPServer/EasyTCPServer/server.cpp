@@ -1,5 +1,6 @@
-#include "EasyTcpServer.hpp"
-
+﻿#include "EasyTcpServer.hpp"
+#define _CRT_SECURE_NO_WARNINGS
+#define _WINSOCK_DEPRECATED_NO_WARNINGS 
 int main()
 {
     EasyTcpServer server;

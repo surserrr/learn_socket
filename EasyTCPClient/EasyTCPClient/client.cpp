@@ -1,5 +1,9 @@
 #include "EasyTcpClient.hpp"
 #include <thread>
+#define _WINSOCK_DEPRECATED_NO_WARNINGS 
+#define _CRT_SECURE_NO_WARNINGS
+
+
 
 bool g_bRun=true;
 void cmdThread()
@@ -50,7 +54,7 @@ void cmdThread()
 }
 
 const int cCount = 100;//  客户端数量
-const int tCount = 4;// 线程数量
+const int tCount = 2;// 线程数量
 EasyTcpClient *client[cCount];//客户端数组
 void sendThread(int id)
 {
@@ -70,7 +74,8 @@ void sendThread(int id)
         if(!g_bRun){
             return;
         }
-        client[n]->Connect("127.0.0.1", 4567);
+		string ip = "127.0.0.1";//127.0.0.1  192.168.0.107
+        client[n]->Connect(ip.c_str(), 4567);
         cout<<"Connect="<<n<<endl;
     }
 

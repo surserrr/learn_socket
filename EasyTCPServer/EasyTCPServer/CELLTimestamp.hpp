@@ -1,4 +1,4 @@
-#ifndef CELLTimestamp_HPP_
+﻿#ifndef CELLTimestamp_HPP_
 #define CELLTimestamp_HPP_
 
 #include<chrono>

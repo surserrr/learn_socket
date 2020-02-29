@@ -1,11 +1,13 @@
 #ifndef _EasyTcpClient_hpp_
 #define _EasyTcpClient_hpp_
-
+#define _WINSOCK_DEPRECATED_NO_WARNINGS 
 #ifdef _WIN32
     #define WIN32_LEAN_AND_MEAN
+	#define FD_SETSIZE 1024
     #include<windows.h>
     #include<WinSock2.h>
     #pragma comment(lib,"ws2_32.lib")
+	
 #else
     #include <unistd.h>
     #include<arpa/inet.h>
@@ -20,6 +22,8 @@
 #include<iostream>
 #include "MessageHeader.hpp"
 using namespace std;
+
+
 
 class EasyTcpClient
 {
@@ -42,7 +46,7 @@ public:
         // 启动windows socket2.x 环境
         WORD vwe = MAKEWORD(2,2);
         WSADATA dat;
-        WSAStartup(ver,&dat);
+        WSAStartup(vwe,&dat);
 #endif
     //    1.建立一个socket
         if(INVALID_SOCKET != _sock)
@@ -62,7 +66,7 @@ public:
         }
     }
     //连接服务器
-    int Connect(char * ip, unsigned short port)
+    int Connect(const char * ip, unsigned short port)
     {
         if(INVALID_SOCKET == _sock)
         {
@@ -73,7 +77,7 @@ public:
         _sin.sin_family = AF_INET;
         _sin.sin_port = htons(port);
 #ifdef _WIN32
-        _sin.sin_addr.S_un.s_addr = inet_addr(ip);
+        _sin.sin_addr.S_un.S_addr = inet_addr(ip);
 #else
         _sin.sin_addr.s_addr = inet_addr(ip);
 #endif
