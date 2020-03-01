@@ -8,13 +8,13 @@
 bool g_bRun=true;
 void cmdThread()
 {
-    while (true)
+    while (g_bRun)
     {
         char cmdBuf[256];
         cin>>cmdBuf;
         if(0 == strcmp(cmdBuf, "exit"))
         {
-            //g_bRun = false;
+            g_bRun = false;
             cout<<"退出cmdthread线程"<<endl;
             break;
         }
@@ -53,48 +53,56 @@ void cmdThread()
     }*/
 }
 
-const int cCount = 100;//  客户端数量
-const int tCount = 2;// 线程数量
+const int cCount = 8;//  客户端数量
+const int tCount = 4;// 线程数量
 EasyTcpClient *client[cCount];//客户端数组
 void sendThread(int id)
 {
+    cout<<"thread<"<<id<<">,start!"<<endl;
     //4个线程， id 1-4
     int c = (cCount/tCount);
     int begin = (id-1) * c;
     int end = id*c;
     for(int n=begin;n<end;n++)
     {
-        if(!g_bRun){
-            return;
-        }
         client[n] = new EasyTcpClient();
     }
     for(int n=begin;n<end;n++)
     {
-        if(!g_bRun){
-            return;
-        }
 		string ip = "127.0.0.1";//127.0.0.1  192.168.0.107
         client[n]->Connect(ip.c_str(), 4567);
-        cout<<"Connect="<<n<<endl;
     }
-
-    Login login;
-    strcpy(login.userName, "fjt");
-    strcpy(login.PassWord, "fjtmm");
+    cout<<"thread<"<<id<<">,Connect=<begin="<<begin<<",end="<<end<<">"<<endl;
+    
+    std :: chrono :: milliseconds t(3000);
+    std:: this_thread::sleep_for(t);
+    
+    Login login[10];
+    for(int i=0;i<10;i++)
+    {
+        strcpy(login[i].userName, "fjt");
+        strcpy(login[i].PassWord, "fjtmm");
+    }
+//    strcpy(login.userName, "fjt");
+//    strcpy(login.PassWord, "fjtmm");
+    
     while (g_bRun)
     {
         for(int n=begin;n<end;n++)
         {
-            client[n]->SendData(&login);
-            //client[n]->OnRun();
+            for(int i=0;i<10;i++)
+            {
+                client[n]->SendData(&login[i]);
+            }
+            client[n]->OnRun();
         }
     }
     for(int n=begin;n<end;n++)
     {
         client[n]->Close();
+        delete client[n];
     }
-
+    cout<<"thread<"<<id<<">,exit!"<<endl;
 }
 
 int main()
@@ -111,7 +119,7 @@ int main()
         t1.detach();
     }
     while (g_bRun) {
-        sleep(1000);
+        sleep(10);
     }
     cout<<"已退出。\n";
     return 0;

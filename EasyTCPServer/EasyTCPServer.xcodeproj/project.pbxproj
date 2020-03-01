@@ -26,7 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		BF4C0D1424054EAA000D6AB1 /* EasyTcpServer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = EasyTcpServer.hpp; sourceTree = "<group>"; };
+		BF4C0D1424054EAA000D6AB1 /* EasyTcpServer.hpp */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.cpp.h; path = EasyTcpServer.hpp; sourceTree = "<group>"; tabWidth = 4; };
 		BF4C0D1624054F1C000D6AB1 /* MessageHeader.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MessageHeader.hpp; sourceTree = "<group>"; };
 		BF6896D7240971B0000BC3BD /* CELLTimestamp.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CELLTimestamp.hpp; sourceTree = "<group>"; };
 		BFE6C7A323FECF1200B4F367 /* EasyTCPServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EasyTCPServer; sourceTree = BUILT_PRODUCTS_DIR; };

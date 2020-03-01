@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>FD990D79-C6CD-4013-9B88-EA18C86BFE32</key>
+		<key>165BF01A-EE94-4AC1-B1A6-81090A7C22F5</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>FD990D79-C6CD-4013-9B88-EA18C86BFE32.xcactivitylog</string>
+			<string>165BF01A-EE94-4AC1-B1A6-81090A7C22F5.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,13 +32,13 @@
 			<key>signature</key>
 			<string>Debug EasyTCPClient</string>
 			<key>timeStartedRecording</key>
-			<real>604588986.71008098</real>
+			<real>604740656.38159394</real>
 			<key>timeStoppedRecording</key>
-			<real>604588999.52158403</real>
+			<real>604740667.75311804</real>
 			<key>title</key>
 			<string>Debug EasyTCPClient</string>
 			<key>uniqueIdentifier</key>
-			<string>FD990D79-C6CD-4013-9B88-EA18C86BFE32</string>
+			<string>165BF01A-EE94-4AC1-B1A6-81090A7C22F5</string>
 		</dict>
 	</dict>
 </dict>

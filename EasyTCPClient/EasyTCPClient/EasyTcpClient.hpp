@@ -28,11 +28,12 @@ using namespace std;
 class EasyTcpClient
 {
     SOCKET _sock;
+    bool _isConnect;
 public:
     EasyTcpClient()
     {
         _sock = INVALID_SOCKET;
-        //
+        _isConnect = false;
     }
     
     virtual ~EasyTcpClient()
@@ -86,6 +87,7 @@ public:
                     cout<<"错误！连接服务器失败\n";
                 }
         else{
+            _isConnect = true;
                     //cout<<"连接服务器成功\n";
                 }
         return ret;
@@ -102,6 +104,7 @@ public:
 #endif
             _sock = INVALID_SOCKET;
         }
+        _isConnect = false;
     }
     //处理数据
     bool OnRun()
@@ -134,7 +137,7 @@ public:
     //是否工作中
     bool isRun()
     {
-        return _sock!=INVALID_SOCKET;
+        return _sock!=INVALID_SOCKET && _isConnect;
     }
     //接收数据,处理粘包 拆分包
     
@@ -145,7 +148,7 @@ public:
     //接收缓冲区
     char _szRecv[RECV_BUFF_SIZE] = {};
     //第二缓冲区 消息缓冲区
-    char _szMsgBuf[RECV_BUFF_SIZE*10] = {};
+    char _szMsgBuf[RECV_BUFF_SIZE*5] = {};
     int _lastPos = 0;
     int RecvData (SOCKET cSock)
     {
@@ -192,25 +195,25 @@ public:
         switch (header->cmd) {
             case CMD_LOGIN_RESULT:
             {
-                LoginResult* login = (LoginResult*) header;
-                cout<<"收到服务器消息：CMD_LOGIN_RESULT,数据长度："<<login->dataLength<<endl;
+                //LoginResult* login = (LoginResult*) header;
+                //cout<<"收到服务器消息：CMD_LOGIN_RESULT,数据长度："<<login->dataLength<<endl;
             }
             break;
             case CMD_LOGOUT_RESULT:
             {
-                LogoutResult* logout = (LogoutResult*) header;
-                cout<<"收到服务器消息：CMD_LOGOUT_RESULT,数据长度："<<logout->dataLength<<endl;
+                //LogoutResult* logout = (LogoutResult*) header;
+                //cout<<"收到服务器消息：CMD_LOGOUT_RESULT,数据长度："<<logout->dataLength<<endl;
             }
             break;
             case CMD_NEW_USER_JOIN:
             {
-                NewUserJoin* userJoin = (NewUserJoin*) header;
-                cout<<"收到服务器消息：CMD_NEW_USER_JOIN,数据长度："<<userJoin->dataLength<<endl;
+                //NewUserJoin* userJoin = (NewUserJoin*) header;
+                //cout<<"收到服务器消息：CMD_NEW_USER_JOIN,数据长度："<<userJoin->dataLength<<endl;
             }
             break;
             case CMD_ERROR:
             {
-                cout<<"收到服务器消息：CMD_ERROR,数据长度："<<header->dataLength<<endl;
+                //cout<<"收到服务器消息：CMD_ERROR,数据长度："<<header->dataLength<<endl;
             }
             break;
                 
@@ -224,9 +227,14 @@ public:
     //发送数据
     int SendData(DataHeader* header)
     {
+        int ret = SOCKET_ERROR;
         if(isRun() && header)
         {
-            return (int)send(_sock, (const char*)header, header->dataLength, 0);
+            ret = (int)send(_sock, (const char*)header, header->dataLength, 0);
+            if(SOCKET_ERROR == ret)
+            {
+                Close();
+            }
         }
         return SOCKET_ERROR;
     }
